@@ -1,6 +1,6 @@
 package stackandqueue;
 
-public class MyLinkedList {
+public class MyLinkedList<T>{
         MyNode head;
 
         public void addFirst(Object data) {   // To add a node before head and make that node as head.
